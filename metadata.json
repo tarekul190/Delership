@@ -1,0 +1,6 @@
+{
+  "name": "Dealership SR Management System",
+  "description": "Full-stack Dealer and Sales Representative (SR) Management System. Tracks daily sales, collection figures, active SRs, pending dues, dealer profiles, invoices, live-locations, stock alerts, and visits.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

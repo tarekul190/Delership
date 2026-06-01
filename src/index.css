@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Custom palette matching the polished dashboard visualization */
+  --color-bdt-green: #00aa6c;
+  --color-bdt-green-light: #e6f7f1;
+  --color-bdt-blue: #3b82f6;
+  --color-bdt-blue-light: #eff6ff;
+  --color-bdt-purple: #8b5cf6;
+  --color-bdt-purple-light: #faf5ff;
+  --color-bdt-orange: #f97316;
+  --color-bdt-orange-light: #fff7ed;
+  --color-bdt-red: #ef4444;
+  --color-bdt-red-light: #fef2f2;
+  --color-navy-dark: #0b1a30;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #030712;
+  color: #ffffff;
+}
+
+/* Custom scrollbars for tables and drawers */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
